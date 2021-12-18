@@ -10,7 +10,7 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "start": "gatsby develop",
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
+    "deploy": "gatsby build && gh-pages -d public -b public"
   },
   "eslintConfig": {
     "env": {

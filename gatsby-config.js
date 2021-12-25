@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: "Kevin's Blog",
     siteDescription: 'Web Development & Tech',
-    siteImage: '/banner.png', // main image of the site for metadata
+    siteImage: '', // main image of the site for metadata
     siteUrl: 'https://mphist.github.io',
     pathPrefix: '/',
     siteLanguage: 'en',

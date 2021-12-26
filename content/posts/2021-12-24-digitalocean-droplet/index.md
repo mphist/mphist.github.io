@@ -3,7 +3,7 @@ title: Creating Virtual Machines with DigitalOcean's Droplets
 cover: ./imgix-server.jpg
 date: 2021-12-24
 description: Overview of creating a VM with DigitalOcean's Droplet.
-tags: ['post']
+tags: ['Virtual Machine', 'DigitalOcean', 'Droplet']
 ---
 
 Droplets are scalable Linux-based virtual machines from [DigitalOcean](https://www.digitalocean.com).
@@ -76,13 +76,13 @@ $ adduser username
 
 2. Set the password at the prompt.
 3. Follow the prompts to set the new user's information.
-4. Use the usermod command to add the user to the "sudo" group
+4. Use the `usermod` command to add the user to the "sudo" group
 
 ```
 $ usermod -aG sudo username
 ```
 
-5. Use the su - username to switch to the new user.
+5. Use the `su - username` command to switch to the new user.
 
 ```
 $ su - username
